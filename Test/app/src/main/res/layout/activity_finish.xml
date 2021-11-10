@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/color1"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Результаты"
+            android:textSize="50sp"
+            android:gravity="center"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/color2"/>
+
+        <TextView
+            android:id="@+id/textResult1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1 Задание:    1/1"
+            android:textSize="30sp"
+            android:gravity="left"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginVertical="10dp"
+            android:textColor="@color/color3"/>
+        <TextView
+            android:id="@+id/textResult2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2 Задание:    1/1"
+            android:textSize="30sp"
+            android:gravity="left"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginVertical="10dp"
+            android:textColor="@color/color3"/>
+        <TextView
+            android:id="@+id/textResult3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3 Задание:    1/1"
+            android:textSize="30sp"
+            android:gravity="left"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginVertical="10dp"
+            android:textColor="@color/color3"/>
+        <TextView
+            android:id="@+id/textResult4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Итого:    3/3"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginVertical="10dp"
+            android:textColor="@color/color3"/>
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:padding="10dp"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginBottom="15dp"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/buttonBack"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/button_gamelevels"
+                android:text="ВЕРНУТЬСЯ В НАЧАЛО"
+                android:textColor="@color/color2"
+                android:textSize="32sp"/>
+        </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>
